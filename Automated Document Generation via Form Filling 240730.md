@@ -44,13 +44,14 @@ Every time we have a small gathering, we ask speakers to fill out a receipt. Pre
 
 ![Screenshot 2024-07-30 at 13.36.05](https://hackmd.io/_uploads/SJjIRgLKR.png)
 
-附上程式碼給大家參考：
+附上程式碼給大家參考，記得要把 'your_sheet_ID' 跟 'your_doc_ID' 換成你自己文件的 ID
+
 
 ```
 function replaceValuesInDoc() {
   // Spreadsheet and Template IDs
-  var spreadsheetId = '1Lc_39H_HU28EtuB1rm3r13ywuAIsrO4si_HCdAc1Uaw';
-  var templateId = '1XomzcFjJPUBNvdjKQyMiZGftmM1gsDqFotwb3AIWiq4';
+  var spreadsheetId = 'your_sheet_ID';
+  var templateId = 'your_doc_ID';
 
   // Specify the row number you want to process (1-based index)
   var rowToProcess = 1; // Process row 9
